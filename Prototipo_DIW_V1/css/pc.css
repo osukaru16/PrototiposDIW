@@ -205,3 +205,65 @@ body{
 
 
 }
+
+
+
+#contenedor .contenedorJuego .botonesLeft .botonArriba{
+
+	margin-left: 80px;
+	margin-top: 100px;
+}
+
+
+
+#contenedor .contenedorJuego .botonesLeft .botonIzquierda{
+
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+#contenedor .contenedorJuego .botonesLeft .botonDerecha{
+
+	margin-left: 135px;
+    float: left;
+    margin-top: -20px;
+}
+
+#contenedor .contenedorJuego .botonesLeft .botonAbajo{
+
+	margin-left: 75px;
+    margin-top: 15px;
+}
+
+
+#contenedor .contenedorJuego .botonesRight .botonX{
+	background-color: #00028A;
+	color: grey;
+	margin-left: 85px;
+    margin-top: 80px;
+    border-radius: 100%;
+
+}
+
+#contenedor .contenedorJuego .botonesRight .botonY{
+	background-color: #044C4E;
+	color: grey;
+	margin-left: 30px;
+    margin-top: 35px;
+    border-radius: 100%;
+}
+#contenedor .contenedorJuego .botonesRight .botonA{
+	background-color: #D60002;
+	color: grey;
+	margin-left: 140px;
+    float: left;
+    margin-top: -21px;
+    border-radius: 100%;
+}
+#contenedor .contenedorJuego .botonesRight .botonB{
+	background-color: #FCD035;
+	color: grey;
+	margin-left: 85px;
+    margin-top: 15px;
+    border-radius: 100%;
+}
