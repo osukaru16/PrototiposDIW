@@ -3,25 +3,58 @@
 <head>
 	<title>Protipo Index</title>
 	<link rel="stylesheet" type="text/css" href="css/pc.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<script type="text/javascript" src="js/js.js" ></script>
 </head>
 
 <body>
-	
-	<div id="contenedor">
-		<div class="cabecera">
-			<a href="index.html"><div class="logoContenedor">Logo</div></a>
+	<div class="wrapper">
+	<div class="row">
 
-			<div class="juegoAlearotio">
-					<a href="html/info-juego.html">
-						<div class="areaJuego">
-							<div class="imagenAleatoria">?</div> Juego Aleatorio
-						</div>
-					</a>
-			</div>
-			<div class="buscador"><input type="text" name="temaBuscar" id="temaBuscar"><button>Buscar</button></div>
+	  <!-- main -->
+	  <div class="column col-xs-9" id="main">
+		<div class="logo">
+			<span>Logo</span>
 		</div>
+		<h1>left c</h1>
+		<h1>left c</h1>
+		<h1>left c</h1>
+		<h1>left c</h1>
+		<h1>left c</h1>
+		<h1>left c</h1>
+		<h1>left c</h1>
+		<h1>left c</h1>
+		<h1>left c</h1>
+	  </div>
+		<div id="contenedor">
+			<div class="cabecera">
+				<a href="index.html"><div class="logoContenedor">Logo</div></a>
+
+				<div class="juegoAlearotio">
+						<a href="html/info-juego.html">
+							<div class="areaJuego">
+								<div class="imagenAleatoria">
+									<img src="img/bloqueInterrogante.png" class="imagenJuegoAleatorio" alt="">Juego Aleatorio
+								</div>
+							</div>
+						</a>
+				</div>
+
+			</div>
+		</div>
+
+	  <!-- sidebar -->
+	  <div class="column col-xs-3" id="sidebar">
+		<div class="buscador">
+			<input type="text" name="temaBuscar" class="form-control" id="temaBuscar" placeholder="Buscar...">
+			<button>Buscar</button>
+		</div>
+	  </div>
+
 	</div>
+  </div>
+
+
 
 </body>
 </html>
