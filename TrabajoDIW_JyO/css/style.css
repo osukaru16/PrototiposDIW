@@ -1,0 +1,26 @@
+.w200 {
+    width: 200px;
+}
+
+.w100 {
+    width: 100px;
+}
+.h100{
+    height: 100px;
+    width: 100px;
+}
+.derecha {
+    float: right;
+}
+
+.generos {
+    margin: 20px;
+}
+
+.generos .card {
+    margin-left: 5px;
+}
+
+.margen-inferior{
+    margin-bottom: 60px;
+}
